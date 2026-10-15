@@ -4819,7 +4819,7 @@ dependencies = [
  "koharu-runtime",
  "koharu-torch",
  "llguidance",
- "minijinja",
+ "minijinja 3.0.1",
  "minijinja-contrib",
  "rayon",
  "schemars 1.2.2",
@@ -5502,12 +5502,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "minijinja"
+version = "3.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "789a6b737c4a13bec43cd3c1b982aa8a8a192ff4bf444e0fb1fd5a324f064fd1"
+
+[[package]]
 name = "minijinja-contrib"
 version = "2.24.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bd3e5f077bc2379f0f7d911e7cfdd921114ed99fc884533dca502944cb355b11"
 dependencies = [
- "minijinja",
+ "minijinja 2.24.0",
  "serde",
 ]
 
